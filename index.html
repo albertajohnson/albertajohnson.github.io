@@ -1,0 +1,525 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+
+  <meta charset="UTF-8">
+
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <meta name="description" content="Professional website for a PhD student and research and statistical consultant.">
+
+  <title>PhD Research and Statistical Consultant | Your Name</title>
+
+  <style>
+
+    /* General Reset */
+
+    * {
+
+      margin: 0;
+
+      padding: 0;
+
+      box-sizing: border-box;
+
+    }
+
+
+
+    body {
+
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+      line-height: 1.6;
+
+      background-color: #f9f9f9;
+
+      color: #333;
+
+    }
+
+
+
+    /* Header Section */
+
+    header {
+
+      background: #2c3e50;
+
+      color: #fff;
+
+      padding: 20px 0;
+
+      text-align: center;
+
+    }
+
+
+
+    header h1 {
+
+      font-size: 2.5rem;
+
+      margin-bottom: 10px;
+
+    }
+
+
+
+    header p {
+
+      font-size: 1.2rem;
+
+      font-weight: 300;
+
+    }
+
+nav {
+
+      background: #34495e;
+
+      color: #fff;
+
+      display: flex;
+
+      justify-content: center;
+
+      padding: 10px 0;
+
+    }
+
+
+
+    nav a {
+
+      color: #fff;
+
+      text-decoration: none;
+
+      margin: 0 15px;
+
+      font-size: 1rem;
+
+      transition: color 0.3s ease;
+
+    }
+
+
+
+    nav a:hover {
+
+      color: #1abc9c;
+
+    }
+
+
+
+    /* Main Content */
+
+    main {
+
+      padding: 20px;
+
+      max-width: 1200px;
+
+      margin: 0 auto;
+
+    }
+
+
+
+    section {
+
+      margin-bottom: 40px;
+
+    }
+
+
+
+    section h2 {
+
+      font-size: 2rem;
+
+      margin-bottom: 20px;
+
+      color: #2c3e50;
+
+    }
+
+
+
+    /* Contact */
+
+    #contact {
+
+      text-align: center;
+
+    }
+
+
+
+    #contact p {
+
+      margin-bottom: 15px;
+
+    }
+
+
+
+    #contact .social-links {
+
+      display: flex;
+
+      justify-content: center;
+
+      gap: 15px;
+
+      margin-top: 10px;
+
+    }
+
+
+
+    #contact .social-links a {
+
+      display: flex;
+
+      align-items: center;
+
+      gap: 5px;
+
+      color: #333;
+
+      text-decoration: none;
+
+      font-size: 1rem;
+
+      transition: color 0.3s ease;
+
+    }
+
+
+
+    #contact .social-links a:hover {
+
+      color: #1abc9c;
+
+    }
+
+
+
+    #contact .social-links img {
+
+      width: 16px; /* Adjusted size */
+
+      height: 16px; /* Adjusted size */
+
+    }
+
+
+
+    /* Hidden Sections */
+
+    #skills, #projects, #publications, #cv, #contact {
+
+      display: none;
+
+    }
+
+  </style>
+
+</head>
+
+<body>
+
+  <!-- Header -->
+
+  <header>
+
+    <h1>Ashley Obeng</h1>
+
+    <p>Ph.D. Student & Researcher</p>
+
+  </header>
+
+
+
+  <!-- Navigation -->
+
+  <nav>
+
+    <a href="#home" onclick="showSection('home')">Home</a>
+
+    <a href="#skills" onclick="showSection('skills')">Skills</a>
+
+    <a href="#projects" onclick="showSection('projects')">Projects</a>
+
+    <a href="#publications" onclick="showSection('publications')">Publications</a>
+
+    <a href="#cv" onclick="showSection('cv')">CV</a>
+
+    <a href="#contact" onclick="showSection('contact')">Contact</a>
+
+  </nav>
+
+
+
+  <!-- Main Content -->
+
+  <main>
+
+    <!-- Home Section -->
+
+    <section id="home">
+
+      <div id="home">
+
+        <img src="https://raw.githubusercontent.com/Johnson-a-hash/ArabaJohnson.github.io/main/AJ.jpeg" alt="Your Photo" style="width: 200px; height: 200px; border-radius: 50%; object-fit: cover; border: 3px solid #1abc9c;">
+
+        <div>
+
+          <h3>About Me</h3>
+
+          <p>Hi there! Innovating at the intersection of statistics and health, I’m a Ph.D. student in Statistics passionate about advancing health research and improving patient outcomes through robust causal inference. My work focuses on developing scalable Bayesian Double Machine Learning (BDML) methods to estimate treatment effects in high-dimensional, real-world healthcare data.
+
+            
+
+      
+
+I’m especially interested in tackling the challenges of bias, uncertainty, and interpretability in causal inference, where traditional models and standalone machine learning often fall short. By combining statistical rigor with practical relevance, I aim to generate insights that support more personalized and evidence-based healthcare</p>
+
+          <h4>Research Interests</h4>
+
+<ul style="list-style-type: disc; margin-left: 20px;">
+
+  <li style="margin-bottom: 10px;">Bayesian Modelling</li>
+
+  <li style="margin-bottom: 10px;">Double Machine Learning</li>
+
+  <li style="margin-bottom: 10px;">Casual Inference</li>
+
+  <li style="margin-bottom: 10px;">High-Dimensional Data Analysis</li>
+
+  <li style="margin-bottom: 10px;">Longitudinal Data Modeling</li>
+
+</ul>
+
+        </div>
+
+      </div>
+
+    </section>
+
+
+
+    </section>
+
+
+
+    <!-- Skills -->
+
+    <section id="skills">
+
+      <h2>Skills</h2>
+
+      <ul style="list-style-type: disc; margin-left: 20px;">
+
+        <li style="margin-bottom: 10px; ">Machine Learning</li>
+
+        <li style="margin-bottom: 10px; ">Data Analysis</li>
+
+        <li  style="margin-bottom: 10px; ">Statistical Modeling</li>
+
+        <li  style="margin-bottom: 10px; ">SAS</li>
+
+        <li  style="margin-bottom: 10px; ">R Programming</li>
+
+        <li  style="margin-bottom: 10px; ">Pyhton</li>
+
+      </ul>
+
+    </section>
+
+
+
+    <!-- Projects -->
+
+    <section id="projects">
+
+      <h2>Projects</h2>
+
+<ul style="list-style-type: disc; margin-left: 20px;">
+
+  <li style="margin-bottom: 15px;">
+
+    <strong>Bayesian Estimation of Reproduction Numbers (Master’s Thesis):</strong> 
+
+    Developed classical and empirical Bayesian estimators for reproduction numbers using outbreak size distributions modeled via branching processes. Proposed and implemented monotonization techniques (Van Houwelingen & Isotonic Regression) to improve estimator stability.
+
+
+
+    This study showed that monotonized empirical Bayes estimators significantly reduce estimation variability ("jumpiness") and outperform classical methods in simulation, enhancing the reliability of epidemic forecasting tools.
+
+  </li>
+
+  <li style="margin-bottom: 15px;">
+
+    <strong>Comparative Modeling of Asthma Drug Efficacy:</strong> 
+
+    Analyzed longitudinal FEV data from asthma patients using mixed models and GEE. Compared repeated measures, multilevel linear regression, and GEE approaches with different covariance structures.
+
+    This project identified strengths and limitations of different modeling approaches (mixed models, multilevel models, GEE) and concluded the repeated measures model as most appropriate for the data, informing better model selection in clinical settings.
+
+  </li>
+
+    <li style="margin-bottom: 15px;">
+
+    <strong>Survival Analysis in Leukemia Transplant Outcomes:</strong> 
+
+    Used Cox Proportional Hazards modeling to investigate predictors of acute graft-versus-host disease in bone marrow transplant patients. Focused on evaluating methotrexate’s effect as prophylaxis.
+
+    This project contributes insights into treatment evaluation and the design of future transplant protocols.
+
+  </li>
+
+     <li style="margin-bottom: 15px;">
+
+    <strong>Breast Cancer Diagnosis Using ML:</strong> 
+
+    Compared traditional machine learning algorithms for classifying breast cancer tumors using the benchmark WBCD dataset.
+
+   Identified Artificial Neural Networks (ANN) and KNN as the most effective methods, achieving F1-scores and balanced accuracy >97%. Demonstrated the potential of ML in clinical diagnostic tools.
+
+  </li>
+
+     <li style="margin-bottom: 15px;">
+
+    <strong>Deep Learning for COVID-19 Tweet Sentiment Analysis:</strong> 
+
+   Built an ensemble deep learning model to classify public sentiment toward COVID-19 using Twitter data.
+
+   Improved classification accuracy by leveraging a stacking ensemble (CNN + RNN + BiLSTM with Random Forest meta-classifier). 
+
+    <strong>Tinnitus Intervention Study: Regression Modeling:</strong> 
+
+    Modeled the effect of treatment and psychosocial factors on tinnitus improvement using multiple regression and modern variable selection techniques.
+
+   Selected the best-performing predictive model using cross-validation and diagnostics. Provided actionable insights into predictors of treatment success in tinnitus therapy.
+
+  </li>
+
+</ul>
+
+    </section>
+
+
+
+<!-- Publications -->
+
+<section id="publications">
+
+  <h2>Publications</h2>
+
+  <ul>
+
+    <li>
+
+      <a href="https://doi.org/10.26438/ijsrmss/v10i3.18" target="_blank">
+
+        COVID-19 Tweets Sentiment Classification: A Deep Learning Model with Stacking Ensemble for Improved Performance – IJSRMSS, 2023
+
+      </a>
+
+    </li>
+
+  </ul>
+
+</section>
+
+
+
+
+
+    <!-- CV -->
+
+    <section id="cv">
+
+      <h2>CV</h2>
+
+     <!-- <p>Download my CV: <a href="your-cv.pdf" download>CV Download</a></p>  -->
+
+    </section>
+
+
+
+    <!-- Contact -->
+
+    <section id="contact">
+
+      <h2>Contact</h2>
+
+      <p>If you'd like to get in touch, feel free to email me directly:</p>
+
+      <a href="mailto:arabaa.johnson@gmail.com" class="email-link">arabaa.johnson@gmail.com</a>
+
+
+
+      <p>Or connect with me on social media:</p>
+
+      <div class="social-links">
+
+        <a href="https://www.linkedin.com/in/alberta-johnson/" target="_blank">
+
+          <img src="https://cdn-icons-png.flaticon.com/512/174/174857.png" alt="LinkedIn Icon">
+
+          LinkedIn
+
+        </a>
+
+        <a href="https://github.com/Johnson-a-hash" target="_blank">
+
+          <img src="https://cdn-icons-png.flaticon.com/512/25/25231.png" alt="GitHub Icon">
+
+          GitHub
+
+        </a>
+
+      </div>
+
+    </section>
+
+  </main>
+
+
+
+  <script>
+
+    // Function to show the selected section and hide others
+
+    function showSection(sectionId) {
+
+      const sections = document.querySelectorAll('section');
+
+      sections.forEach(section => {
+
+        section.style.display = 'none';
+
+      });
+
+      document.getElementById(sectionId).style.display = 'block';
+
+    }
+
+
+
+    // Show Home section by default
+
+    window.onload = () => showSection('home');
+
+  </script>
+
+</body>
+
+</html>
